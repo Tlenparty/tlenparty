@@ -1,6 +1,6 @@
-![Header](https://github.com/Tlenparty/tlenparty/blob/main/assets/png-clipart-computer-icons-android-logo-android-logo-black.png)]
+![Header](https://github.com/Tlenparty/tlenparty/blob/main/assets/quake-wide.png)]
 
-About me 
+## I'm learning java and kotlin
 
 Latest project
 
