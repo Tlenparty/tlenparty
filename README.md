@@ -1,8 +1,8 @@
 
 
-## I'm learning java and kotlin
+## Hello!
 
-## Latest project - PopularLibraries
+## Latest project - Dictionary
 
 ## Languages and Tools
 
