@@ -1,5 +1,3 @@
-![Header](assets/dfe27b7573cca8950c7b6fa3285db54aa1075fcc_full.jpeg)
-
 ## Hello!
 
 Android-разработчик: Kotlin, Java, Jetpack Compose, Kotlin Multiplatform.
