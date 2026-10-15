@@ -2,33 +2,13 @@
 
 Android developer: Kotlin, Java, Jetpack Compose, Kotlin Multiplatform.
 
-## Featured: live delivery ETA for YamiYami
-
-**Business problem.** Once a food order was "On the way", the customer saw only a static planned time
-("Delivered today by 14:18"), with no idea where they were in the courier's route or when the courier would actually arrive.
-
-**What I did, end to end**: from idea to working MVP to production architecture, across three codebases.
-
-- **Customer app (YamiYami, Android):** a live countdown in the order card, refreshed every 10 s:
-  "Arriving in N min", "The courier is at your door", "You're second in the route, by HH:MM". Any failure falls back
-  to the planned time, so the screen is never worse than before. The courier pin on the map now moves smoothly
-  instead of flickering.
-- **Courier app (Android):** sends the courier's ordered route and location heartbeats; the service is optional
-  and never blocks the courier.
-- **[route-service](https://github.com/Tlenparty/route-service) MVP (private):** Node.js + Fastify with a self-hosted
-  OSRM road graph of St. Petersburg. The ETA follows roads, bridges and one-way streets rather than a straight line,
-  plus calibrated handover and last-leg time. It reuses the apps' existing auth with no tokens of its own, and filters
-  implausible GPS fixes (jumps, points far from any road, a courier "teleported" to another city). A courier
-  simulator drives real roads, including injected GPS glitches. Verified end to end on a real staging order.
-- **System design for production:** moved the calculation into the company's existing Go backend, where courier
-  locations and order data already flow, so phase 1 needs no courier-app release. Also designed per-courier ETA
-  caching, order ownership checks, a three-level kill switch (single response, server toggle, client feature flag)
-  and "promised vs delivered" calibration. Wrote the backend spec and shared reference test cases so the Go
-  implementation matches the prototype exactly.
-
-**Stack:** Kotlin, Jetpack Compose, Node.js, Fastify, OSRM, Docker Compose, system design for a Go + Kafka backend.
-
 ## Projects
+
+### Commercial · YamiYami
+
+| Project | Description | Stack |
+|---|---|---|
+| [route-service](https://github.com/Tlenparty/route-service) (private) | Live delivery ETA in the food-delivery app: instead of a static "by 14:18", the customer sees "Arriving in N min" or "You're second in the route", refreshed every 10 s. Built end to end: customer and courier Android apps, an MVP service with a road-graph ETA and GPS plausibility filters, a courier simulator, and the production design and spec for moving the calculation into the Go backend | Kotlin, Node.js, Fastify, OSRM, Docker Compose, system design |
 
 ### Android · Kotlin
 
