@@ -64,3 +64,7 @@ Android developer: Kotlin, Java, Jetpack Compose, Kotlin Multiplatform.
 ![Jetpack Compose](https://img.shields.io/badge/-Jetpack%20Compose-090909?style=for-the-badge&logo=jetpackcompose)
 ![Kotlin Multiplatform](https://img.shields.io/badge/-Kotlin%20Multiplatform-090909?style=for-the-badge&logo=kotlin)
 ![Gradle](https://img.shields.io/badge/-Gradle-090909?style=for-the-badge&logo=gradle)
+![Node.js](https://img.shields.io/badge/-Node.js-090909?style=for-the-badge&logo=nodedotjs)
+![Fastify](https://img.shields.io/badge/-Fastify-090909?style=for-the-badge&logo=fastify)
+![Docker](https://img.shields.io/badge/-Docker-090909?style=for-the-badge&logo=docker)
+![OSRM](https://img.shields.io/badge/-OSRM-090909?style=for-the-badge&logo=openstreetmap)
