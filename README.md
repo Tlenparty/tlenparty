@@ -1,6 +1,6 @@
 ## Hello!
 
-Android developer: Kotlin, Java, Jetpack Compose, Kotlin Multiplatform.
+Android & iOS developer (Kotlin Multiplatform): Kotlin, Swift, Jetpack Compose, Compose Multiplatform.
 
 ## Projects
 
