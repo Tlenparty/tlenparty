@@ -1,6 +1,6 @@
 ## Hello!
 
-Android & iOS developer (Kotlin Multiplatform): Kotlin, Swift, Jetpack Compose, Compose Multiplatform.
+Android & iOS developer (Kotlin Multiplatform) with 6+ years of experience: Kotlin, Swift, Jetpack Compose, Compose Multiplatform.
 
 ## Projects
 
