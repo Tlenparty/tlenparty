@@ -4,6 +4,12 @@ Android & iOS developer (Kotlin Multiplatform): Kotlin, Swift, Jetpack Compose, 
 
 ## Projects
 
+### Compose · Multiplatform
+
+| Project | Description | Stack |
+|---|---|---|
+| [Algolingo](https://github.com/Tlenparty/Algolingo) | Duolingo for algorithms: you solve problems in Kotlin by assembling solutions from code-token bubbles. My own Android and iOS app with lessons, a knowledge base and a custom design system | Kotlin Multiplatform, Compose Multiplatform, kotlinx.serialization |
+
 ### Commercial · YamiYami
 
 | Project | Description | Stack |
@@ -22,14 +28,6 @@ Android & iOS developer (Kotlin Multiplatform): Kotlin, Swift, Jetpack Compose, 
 | [Translator](https://github.com/Tlenparty/Translator) | Dictionary on the Skyeng API with search history | MVVM, Koin, Coroutines, Retrofit, Room, Coil |
 | [KodeTraineeDev](https://github.com/Tlenparty/KodeTraineeDev) | KODE take-home assignment: employee directory | MVP (Moxy), Cicerone, RxJava, Retrofit, Glide |
 | [Stopwatch](https://github.com/Tlenparty/Stopwatch) | Stopwatch with two timers | MVVM, Coroutines/Flow, LiveData |
-
-### Compose · Multiplatform
-
-| Project | Description | Stack |
-|---|---|---|
-| [Algolingo](https://github.com/Tlenparty/Algolingo) | Duolingo for algorithms: you solve problems in Kotlin by assembling solutions from code-token bubbles. My own Android and iOS app with lessons, a knowledge base and a custom design system | Kotlin Multiplatform, Compose Multiplatform, kotlinx.serialization |
-| [MyKMM](https://github.com/Tlenparty/MyKMM) | Kotlin Multiplatform starter project: Android and iOS | KMM, Compose, SwiftUI |
-| [MyJetpackComposeProject](https://github.com/Tlenparty/MyJetpackComposeProject) | Profile card in Jetpack Compose | Jetpack Compose |
 
 ### Android · Java
 
