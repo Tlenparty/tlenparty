@@ -9,6 +9,7 @@ Android & iOS developer (Kotlin Multiplatform): Kotlin, Swift, Jetpack Compose, 
 | Project | Description | Stack |
 |---|---|---|
 | [route-service](https://github.com/Tlenparty/route-service) (private) | Live delivery ETA in the food-delivery app: instead of a static "by 14:18", the customer sees "Arriving in N min" or "You're second in the route", refreshed every 10 s. Built end to end: customer and courier Android apps, an MVP service with a road-graph ETA and GPS plausibility filters, a courier simulator, and the production design and spec for moving the calculation into the Go backend | Kotlin, Node.js, Fastify, OSRM, Docker Compose, system design |
+| [yami-harness](https://github.com/Tlenparty/yami-harness) (private) | My own harness for AI coding agents (Claude Code, Codex) across the YamiYami Android apps: shared team rules, bugfix and code-review workflows, a tech radar and migration skills. Versioned toolkits are synced into each product by tags, and the agent offers the new version at session start | Python, Claude Code, Codex, agent skills |
 
 ### Android · Kotlin
 
@@ -26,6 +27,7 @@ Android & iOS developer (Kotlin Multiplatform): Kotlin, Swift, Jetpack Compose, 
 
 | Project | Description | Stack |
 |---|---|---|
+| [Algolingo](https://github.com/Tlenparty/Algolingo) | Duolingo for algorithms: you solve problems in Kotlin by assembling solutions from code-token bubbles. My own Android and iOS app with lessons, a knowledge base and a custom design system | Kotlin Multiplatform, Compose Multiplatform, kotlinx.serialization |
 | [MyKMM](https://github.com/Tlenparty/MyKMM) | Kotlin Multiplatform starter project: Android and iOS | KMM, Compose, SwiftUI |
 | [MyJetpackComposeProject](https://github.com/Tlenparty/MyJetpackComposeProject) | Profile card in Jetpack Compose | Jetpack Compose |
 
